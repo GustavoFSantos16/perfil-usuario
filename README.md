@@ -73,5 +73,4 @@ INSERT INTO usuarios (usuario, senha) VALUES ('admin', 'Senai@118');
 ## 🔒 Boas Práticas e Segurança Aplicadas
 
 - **Validação de Sessão:** Redirecionamento automático caso um usuário tente acessar o perfil diretamente via URL sem estar autenticado.
-- **Prevenção contra XSS:** Tratamento de dados exibidos no HTML através de `htmlspecialchars()`.
 - **Prevenção de Erros de Cabeçalho:** Chamadas de `session_start()` e `header()` posicionadas no topo dos arquivos PHP antes de qualquer saída de código HTML.
